@@ -30,7 +30,7 @@ InnoMickAssignment/
 │   ├── package.json           # Backend dependencies
 │   └── .gitignore             # Ignores node_modules, .env
 │
-├── Frontend/meeting-cost-frontend/
+├── Frontend/client/
 │   ├── public/
 │   ├── src/
 │   │   ├── App.jsx            # Main React component with all UI logic
@@ -126,15 +126,3 @@ Issue | Fix
 `MongooseServerSelectionError` | Run `mongod` or start MongoDB service
 `CORS error` | Check backend is on port 3001
 `breakdown.map is not a function` | Restart backend, ensure calculate route returns `breakdown: []`
-
-
-
-   - Saved meetings list = `past-meetings.png`
-2. Create folder: `InnoMickAssignment/screenshots/`
-3. Put the 3 PNG files inside
-4. Commit:
-```bash
-git add screenshots/ README.md
-git commit -m "Add screenshots and updated README with future enhancements"
-git push
-The README will now show images on GitHub. Update `yourgithub` with your actual username.
