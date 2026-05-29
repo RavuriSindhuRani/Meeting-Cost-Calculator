@@ -21,8 +21,6 @@ Calculate the real dollar cost of your meetings based on attendee rates and dura
 ![Past Meetings](./OutputScreenshots/pastmeetings.png)
 *All saved meetings stored in MongoDB with delete option*
 
-> **Note:** Create a `/screenshots` folder in your repo and add PNG files named `calculator.png`, `breakdown.png`, `past-meetings.png`
-
 ## 📁 Project Structure
 
 InnoMickAssignment/
@@ -75,7 +73,6 @@ const breakdown = people.map(p => ({
 }));
 const total = breakdown.reduce((sum, p) => sum + p.cost, 0);
 ## 🚀 Quick Start
-
 ### *Prerequisites*
 - Node.js ≥ 18.x
 - MongoDB running locally on `mongodb://localhost:27017`
